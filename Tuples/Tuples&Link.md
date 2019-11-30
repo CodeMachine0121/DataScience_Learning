@@ -18,10 +18,10 @@
 
 <h1>Aliasing & Clone
     <h3>Aliasing</h3>
-        A=[1,2,3,4]
-        B=A then A[0]=B[0]=1
-        if A=[5,6,7,8] then B[0]=5
+        A=[1,2,3,4]<b>
+        B=A then A[0]=B[0]=1<b>
+        if A=[5,6,7,8] then B[0]=5<b>
     <h3>Clone</h3>
-        A=[1,2,3,4]
-        B=A[:] then A[0]=B[0]=1
-        if A=[5,6,7,8] then B[0]=1, A[0]=5
+        A=[1,2,3,4]<b>
+        B=A[:] then A[0]=B[0]=1<b>
+        if A=[5,6,7,8] then B[0]=1, A[0]=5<b>
