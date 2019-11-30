@@ -14,5 +14,14 @@
         L1.extend([5,6]) then L1=[1,2,5,6]<b>
         L1.append([5,6]) then L1=[1,2,[5,6]]<b>
     <h3>Nesting:</h3> 
-        ttup = [1,2,["hello","world"],1.2] , tup[2][1]="hello"
+        L1 = [1,2,["hello","world"],1.2] , L1[2][1]="hello"
 
+<h1>Aliasing & Clone
+    <h3>Aliasing</h3>
+        A=[1,2,3,4]
+        B=A then A[0]=B[0]=1
+        if A=[5,6,7,8] then B[0]=5
+    <h3>Clone</h3>
+        A=[1,2,3,4]
+        B=A[:] then A[0]=B[0]=1
+        if A=[5,6,7,8] then B[0]=1, A[0]=5
